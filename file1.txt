@@ -1,1 +1,27 @@
-Some code
+bande@AsusVivoBook MINGW64 ~/Desktop/Tel-Ran/Telran Practik/Test (main)
+$ git remote -v
+
+bande@AsusVivoBook MINGW64 ~/Desktop/Tel-Ran/Telran Practik/Test (main)
+$ curl -u 'EduardDietzel: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' https://api.github.com/user/repos -d '{"name":"Test"}'
+
+
+Так мы создали репо на удаленом репозитории
+
+bande@AsusVivoBook MINGW64 ~/Desktop/Tel-Ran/Telran Practik/Test (main)
+$ git remote add origin git@github.com:EduardDietzel/Test.git
+
+bande@AsusVivoBook MINGW64 ~/Desktop/Tel-Ran/Telran Practik/Test (main)
+$ git remote -v
+origin  git@github.com:EduardDietzel/Test.git (fetch)
+origin  git@github.com:EduardDietzel/Test.git (push)
+
+- Сделали привязку
+
+Удалить привязку:
+
+bande@AsusVivoBook MINGW64 ~/Desktop/Tel-Ran/Telran Practik/Test (main)
+$ git remote remove
+
+Удалить файлы (Untrecked files):
+
+git clean -xdn
